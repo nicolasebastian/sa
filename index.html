@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Corex Gym</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Corex Gym</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#Nuestra Filosofia">Nuestra Filosofía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menú">&#9776;</div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <h2>Alcanza tu mejor versión</h2>
+        <p>Un cuerpo sano, una vida plena</p>
+        <a href="#Contacto" class="Contacto">Únete ahora</a>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="container">
+            <div class="service">
+                <h3>Entrenamiento Personal</h3>
+                <img src="https://th.bing.com/th/id/OIP.ESDhJ1jambZ7wEP0vqUOugHaE8?w=1200&h=800&rs=1&pid=ImgDetMain" class=imagen1 alt="">
+                <p>Rutinas adaptadas con entrenadores expertos.</p>
+            </div>
+            <div class="service">
+                <h3>Clases Grupales</h3>
+                <img src="https://th.bing.com/th/id/OIP.gE0Rvu2MstmX0ZTv_dSGGAHaE8?rs=1&pid=ImgDetMain" class="imagen2" alt="">
+                <p>Empezar acompañado siempre será más fácil</p>
+            </div>
+            <div class="service">
+                <h3>Preparación Deportiva</h3>
+                <img src="https://th.bing.com/th/id/R.eb075b1319d7ca6af0df5279a44717e3?rik=GoRuUYe9HvjcWQ&pid=ImgRaw&r=0" class= imagen3 alt="">
+                <p>Para deportistas de alto  rendimiento</p>
+            </div>
+            <div class="service">
+                <h3>Nutrición</h3>
+                <img src="https://th.bing.com/th/id/OIP.fyddtihFehs487fumLHD1QHaFj?rs=1&pid=ImgDetMain" class=imagen4 alt="">
+                <p>Cuidar tu alimentación, es cuidar la calidad de tu ejercicio</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Nuestra Filosofia" class="filosofia">
+        <h2>Nuestra Filosofía</h2>
+        <blockquote>Cuerpo fuerte, mente fuerte</blockquote>
+        
+    </section>
+
+    <section id="Contacto" class="Contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="enviar">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+      <p> Instagram: @corexgym
+       X: @corexgym
+       Telefono: +56 9 8765 4321
+       Casa Central: Av. Los gimanasios 1234. Comuna de Las Mancuernas</p>
+
+        <p>&copy; 2025 PowerFit Gym - Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+       
+        document.querySelector(".cosquillas").addEventListener("click", function() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
